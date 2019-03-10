@@ -3,7 +3,7 @@ class TodoModel {
     return {
       ...todo,
       _isOpen: true,
-      _createdAt: true
+      _createdAt: Date()
     };
   }
 
